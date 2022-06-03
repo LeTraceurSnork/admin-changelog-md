@@ -2,6 +2,7 @@
     "name": "spectrumdata/admin-changelog-md",
     "description": "SpectrumData WordPress plugin \"Admin CHANGELOG.md page\"",
     "type": "wordpress-plugin",
+    "license": "proprietary",
     "authors": [
         {
             "name": "LeTraceurSnork",
