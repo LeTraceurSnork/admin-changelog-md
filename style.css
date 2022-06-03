@@ -1,0 +1,12 @@
+.page--changelog ul {
+    margin-left: 25px;
+}
+.page--changelog ul li {
+    position: relative;
+}
+.page--changelog ul li:before {
+    content: "—";
+    color: #1d2327;
+    position: absolute;
+    left: -25px;
+}

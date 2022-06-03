@@ -1,0 +1,23 @@
+{
+    "name": "spectrumdata/admin-changelog-md",
+    "description": "SpectrumData WordPress plugin \"Admin CHANGELOG.md page\"",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "LeTraceurSnork",
+            "email": "le_traceur_snork@mail.ru"
+        },
+        {
+            "name": "Gomzyakov.A",
+            "email": "gomzjakov.a@avtocod.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SpectrumData\\Plugin\\Changelog\\": "classes/Changelog"
+        }
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
