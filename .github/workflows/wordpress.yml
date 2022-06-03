@@ -2,8 +2,7 @@ name: WordPress
 
 on:
   push:
-    tags:
-      - '*'
+    branches: [ master ]
 
 jobs:
   release:
