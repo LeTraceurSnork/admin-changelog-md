@@ -13,6 +13,9 @@
             "email": "gomzjakov.a@avtocod.ru"
         }
     ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
     "autoload": {
         "psr-4": {
             "SpectrumData\\Plugin\\Changelog\\": "classes/Changelog"
