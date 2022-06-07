@@ -19,6 +19,12 @@
         }
     },
     "require": {
+        "composer/installers": "~1.0",
         "erusev/parsedown": "^1.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
