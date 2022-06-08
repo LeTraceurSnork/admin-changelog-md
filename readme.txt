@@ -10,8 +10,6 @@ Use this plugin to show CHANGELOG.md content inside a WordPress-admin (useful fo
 
 == Changelog ==
 
-= 1.0.0 - 4/20/2022 =
+= 0.1.0 - 4/20/2022 =
 
-* Composer installed
-* Plugin now have its own git-repository
-* Versioning restarted
+* Initital release

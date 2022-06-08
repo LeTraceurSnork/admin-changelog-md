@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SpectrumData\Plugin\Changelog;
+namespace SpectrumData\Changelog;
 
 use Parsedown;
 

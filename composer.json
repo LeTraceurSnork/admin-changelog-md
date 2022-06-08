@@ -1,16 +1,12 @@
 {
-    "name": "spectrumdata/admin-changelog-md",
+    "name": "LeTraceurSnork/admin-changelog-md",
     "description": "SpectrumData WordPress plugin \"Admin CHANGELOG.md page\"",
     "type": "wordpress-plugin",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "LeTraceurSnork",
             "email": "le_traceur_snork@mail.ru"
-        },
-        {
-            "name": "Gomzyakov.A",
-            "email": "gomzjakov.a@avtocod.ru"
         }
     ],
     "config": {
@@ -18,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SpectrumData\\Plugin\\Changelog\\": "classes/Changelog"
+            "SpectrumData\\Changelog\\": "classes/Changelog"
         }
     },
     "require": {

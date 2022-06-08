@@ -4,14 +4,14 @@
  * @version 1.0.0
  *
  * Plugin Name: Admin CHANGELOG.md
- * Description: Используется когда возникает необходимость показать изменения в последнем CHANGELOG.md внутри админ-панели WP
+ * Description: Show CHANGELOG.md content inside a WordPress-admin (useful for product developers)
  * Author: LeTraceurSnork
  * Version: 1.0.0
  */
 
 require_once ABSPATH . "vendor/autoload.php";
 
-use SpectrumData\Plugin\Changelog\ChangelogPage;
+use SpectrumData\Changelog\ChangelogPage;
 
 add_action('admin_menu', function () {
     add_menu_page('CHANGELOG', 'CHANGELOG', 'manage_options', 'changelog', array(new ChangelogPage(), 'showChangelogPage'));
