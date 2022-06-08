@@ -34,6 +34,7 @@ jobs:
           echo "::set-output name=CHANGELOG::$CHANGELOG"
       - name: Create GH release
         id: create_gh_release
+        # TODO Look at error: Validation Failed: {"resource":"Release","code":"already_exists","field":"tag_name"}
         uses: actions/create-release@v1
         with:
           tag_name: ${{ github.ref }}
